@@ -1,0 +1,88 @@
+
+--- extracted_resumes/output_resume.txt ---
+James Dao
+12014 Hodges Grove Lane, Tomball, TX 77377
+ 346-280-9344
+# james.k.dao@gmail.com
+ï linkedin.com/in/james-dao-920b45246
+Objective
+Master’s candidate in Applied Machine Learning, seeking an internship/job to apply my passion for innovative
+programming and machine learning in AI-driven solutions and real-world applications.
+Education
+University of Texas at Dallas
+Expected Grad. Dec 2025
+Master of Science in Computer Engineering - Applied Machine Learning
+GPA: 3.5
+Bachelor of Science in Computer Engineering
+Technical Skills
+Languages: Python, Java, C++, C#, HTML/CSS, Verilog, Assembly, MatLab, LaTeX
+Developer Tools: PyTorch, Hugging Face, NumPy, Scikit-Learn, VS Code, Figma, Energia
+Technologies/Frameworks: Linux, GitHub, Flutter, OpenGL, React
+Experiences
+Institute of Electrical and Electronics Engineers
+Aug 2023 – Present
+Computational Intelligence Society Director
+Dallas, TX
+• Established a new society branch, increasing student engagement and interest by 25%.
+• Led the planning and execution of 5+ industry-level events, attended by 100+ participants, focused on machine learning
+technologies.
+• Developed workshops that increased participants’ ML skills, with a 25% improvement in post-workshop assessments.
+Cognizant Generative AI Externship
+June 2024 – August 2024
+Student Extern
+Dallas, TX
+• Gained fundamental knowledge on deep learning, from perceptions to transfer learning, and received hands-on experience
+with PyTorch and Hugging Face libraries for developing generative models.
+• Applied parameter-efficient fine-tuning techniques, resulting in a 30% reduction in computational resource usage for
+model training.
+Multimodal Interaction Lab
+Aug 2023 – Dec 2023
+Research Intern
+Dallas, TX
+• Designed and prototyped virtual reality interfaces, enhancing user experience with multisensory feedback. The interfaces
+increased user engagement by 15%.
+• Collaborated with a cross-functional team to develop interaction techniques in Unity using C#, integrating tactile and
+haptic feedback mechanisms.
+Projects
+VAE-Based Molecular Analysis | Python, PyTorch, NumPy
+• Developed a Variational Autoencoder to predict molecular conformations with 85% accuracy, using Hamiltonian matrices
+derived from DFT data.
+• Utilized ELBO loss function to ensure informative and accurate molecular representations, improving the prediction of
+stable molecular structures.
+• Achieved a 20% reduction in loss through effective hyperparameter tuning and gradient clipping, enhancing model
+convergence speed.
+Parameter-Efficient Fine Tuning Model | Python, Scikit-Learn, PyTorch
+• Fine-tuned the RoBERTa model using LoRA technique from Hugging Face’s PEFT library, improving training efficiency
+by 60%.
+• Achieved an 89% accuracy on emotion detection tasks while reducing computational overhead by 25% compared to fully
+fine-tuned models.
+Pre-Trained Image Classifier | Python, PyTorch
+• Implemented and optimized image classification models (ResNet, AlexNet, VGG) for classifying dog breeds with a 93%
+accuracy rate.
+• Balanced model accuracy and runtime, reducing inference time by 15%, making it suitable for large-scale dog show
+registrations.
+
+
+
+--- user_input/user_input.txt ---
+Target Jobs:
+- Machine Learning Engineer
+- Data Scientist
+- AI Developer
+- Software Engineer (AI/ML specialization)
+
+Target Industries:
+- Technology (Big Tech & Startups)
+- Healthcare and Biomedical Technology
+- Automotive (Autonomous Driving)
+- Financial Technology (FinTech)
+
+Work Preferences:
+- Open to hybrid roles, but prefer fully remote positions.
+- Comfortable working remotely with distributed teams.
+- Willing to consider relocation for roles in major tech hubs if hybrid or onsite is necessary for career growth.
+
+Additional Notes:
+- Looking for structured career growth opportunities and clear mentorship paths.
+
+

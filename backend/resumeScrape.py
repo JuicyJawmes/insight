@@ -21,7 +21,8 @@ def extract_from_folder(folder_path, output_folder):
             pdf_path = os.path.join(folder_path, filename)
             extracted_text = extract_text_from_pdf(pdf_path)
             
-            output_filename = f"{os.path.splitext(filename)[0]}_output.txt"
+            # output_filename = f"{os.path.splitext(filename)[0]}_output.txt"
+            output_filename = "output_resume.txt"
             output_filepath = os.path.join(output_folder, output_filename)
             
             save_text_to_file(extracted_text, output_filepath)
