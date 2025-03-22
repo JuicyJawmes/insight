@@ -26,20 +26,9 @@
         "Parameter-Efficient Fine-Tuning",
         "Virtual Reality",
         "Multisensory Feedback",
-        "Unity",
         "Variational Autoencoders (VAEs)",
-        "Hamiltonian Matrices",
-        "Density Functional Theory (DFT)",
-        "ELBO Loss Function",
-        "Hyperparameter Tuning",
-        "Gradient Clipping",
-        "RoBERTa Model",
-        "LoRA",
-        "Emotion Detection",
-        "ResNet",
-        "AlexNet",
-        "VGG",
-        "Image Classification"
+        "Image Classification",
+        "Model Optimization"
     ],
     "recommended_target_roles": [
         "Machine Learning Engineer",
@@ -49,69 +38,145 @@
     ],
     "skill_roadmap": {
         "beginner": [
-            "Solidify foundational knowledge in Linear Algebra, Calculus, Probability, and Statistics",
-            "Strengthen understanding of basic machine learning algorithms (Linear Regression, Logistic Regression, Decision Trees)"
+            "Solidify foundational Python libraries (NumPy, Pandas, Scikit-learn)",
+            "Basic data manipulation and preprocessing techniques"
         ],
         "intermediate": [
-            "Explore advanced machine learning techniques (SVM, Random Forests, Gradient Boosting)",
-            "Deepen knowledge in Deep Learning architectures (CNNs, RNNs, Transformers)",
-            "Gain experience with Cloud Computing platforms (AWS, Azure, GCP)"
+            "Advanced deep learning techniques (GANs, Transformers)",
+            "Cloud computing platforms (AWS, Azure, GCP)",
+            "MLOps practices (CI/CD, model deployment)",
+            "Data visualization and storytelling"
         ],
         "advanced": [
-            "Master MLOps practices (CI/CD, model deployment, monitoring)",
-            "Explore specialized areas like Reinforcement Learning, Natural Language Processing, Computer Vision",
-            "Develop expertise in distributed computing frameworks (Spark, Dask)"
+            "Reinforcement learning",
+            "Advanced model optimization and deployment (TensorRT, ONNX)",
+            "Research and publish in ML/AI conferences"
         ]
     },
     "certifications": [
         {
             "name": "AWS Certified Machine Learning \u2013 Specialty",
-            "description": "Validates expertise in building, training, and deploying machine learning models on AWS.",
+            "description": "Demonstrates expertise in building, training, and deploying machine learning models on AWS.",
             "url": "https://aws.amazon.com/certification/certified-machine-learning-specialty/"
         },
         {
-            "name": "Microsoft Certified: Azure AI Engineer Associate",
-            "description": "Demonstrates expertise in designing, building, and managing AI solutions on Azure.",
-            "url": "https://learn.microsoft.com/en-us/certifications/azure-ai-engineer/"
+            "name": "Google Cloud Professional Machine Learning Engineer",
+            "description": "Validates ability to design, build, and manage ML solutions on Google Cloud.",
+            "url": "https://cloud.google.com/certification/machine-learning-engineer"
         },
         {
             "name": "TensorFlow Developer Certificate",
-            "description": "Validates proficiency in developing and deploying TensorFlow models.",
+            "description": "Proves proficiency in developing and deploying TensorFlow models.",
             "url": "https://www.tensorflow.org/certificate"
         }
     ],
     "projects": [
         {
-            "title": "Real-time Object Detection and Tracking",
-            "description": "Build a system that can detect and track objects in real-time using a camera feed and deep learning models.",
+            "title": "Time Series Forecasting for Financial Markets",
+            "description": "Develop a model to predict stock prices or other financial indicators using time series data.",
             "skills_developed": [
-                "Computer Vision",
-                "Object Detection",
-                "Deep Learning",
-                "Real-time Processing"
+                "Time series analysis",
+                "LSTM networks",
+                "Financial modeling"
             ],
             "difficulty": "intermediate"
         },
         {
             "title": "Medical Image Segmentation",
-            "description": "Develop a model that can segment medical images (e.g., MRI, CT scans) to identify specific tissues or organs.",
+            "description": "Build a model to segment medical images (e.g., CT scans, MRI) for disease diagnosis.",
             "skills_developed": [
-                "Computer Vision",
-                "Image Segmentation",
-                "Deep Learning",
-                "Medical Imaging"
+                "Image segmentation",
+                "U-Net",
+                "Medical image analysis"
             ],
             "difficulty": "advanced"
         },
         {
-            "title": "Financial Time Series Forecasting",
-            "description": "Build a model that can predict future stock prices or other financial time series data.",
+            "title": "Real-time Object Detection with Edge Devices",
+            "description": "Implement object detection on edge devices like Raspberry Pi using lightweight models.",
             "skills_developed": [
-                "Time Series Analysis",
-                "Deep Learning",
-                "Financial Modeling"
+                "Object detection",
+                "Edge computing",
+                "Model optimization"
             ],
             "difficulty": "intermediate"
         }
-    ]
+    ],
+    "job_market_trends": {
+        "demand_growth_percentage": 25,
+        "industry_growth_percentages": [
+            {
+                "industry": "Technology",
+                "growth_percentage": 30
+            },
+            {
+                "industry": "Healthcare and Biomedical Technology",
+                "growth_percentage": 20
+            },
+            {
+                "industry": "Automotive (Autonomous Driving)",
+                "growth_percentage": 25
+            },
+            {
+                "industry": "Financial Technology (FinTech)",
+                "growth_percentage": 15
+            }
+        ],
+        "salary_expectations": {
+            "min_salary_usd": 90000,
+            "max_salary_usd": 150000
+        },
+        "emerging_skills": [
+            "MLOps",
+            "Edge AI",
+            "Explainable AI (XAI)",
+            "Generative AI"
+        ],
+        "future_outlook_summary": "The field of AI/ML is expected to experience significant growth in the coming years, driven by advancements in deep learning, increasing data availability, and growing adoption across various industries."
+    },
+    "competitive_metrics": {
+        "average_applicants_per_role": {
+            "current_year": 200,
+            "previous_years": [
+                {
+                    "year": 2022,
+                    "value": 150
+                },
+                {
+                    "year": 2021,
+                    "value": 100
+                }
+            ]
+        },
+        "average_time_to_hire_days": {
+            "current_year": 60,
+            "previous_years": [
+                {
+                    "year": 2022,
+                    "value": 45
+                },
+                {
+                    "year": 2021,
+                    "value": 30
+                }
+            ]
+        },
+        "skills_highest_in_demand": [
+            "MLOps",
+            "Cloud Computing",
+            "Deep Learning",
+            "Natural Language Processing"
+        ],
+        "competitive_advantages": [
+            "Strong project portfolio with practical applications",
+            "Experience with parameter-efficient fine-tuning",
+            "Research experience in Multimodal Interaction"
+        ],
+        "recommendations_to_stand_out": [
+            "Build a strong portfolio showcasing diverse projects",
+            "Contribute to open-source projects",
+            "Network with industry professionals",
+            "Tailor resume and cover letter to each specific job application"
+        ]
+    }
 }

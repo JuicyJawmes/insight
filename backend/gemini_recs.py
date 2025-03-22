@@ -20,25 +20,57 @@ def generate_gemini_prompt(combined_text):
 
     {combined_text}
 
-    Provide structured career recommendations strictly as JSON (no explanations or extra text) in this format:
+    Provide structured career recommendations strictly as JSON (no explanations or extra text) in this exact format:
 
     {{
-        "current_skills": [...],
-        "recommended_target_roles": [...],
+        "current_skills": ["...", "..."],
+        "recommended_target_roles": ["...", "..."],
         "skill_roadmap": {{
-            "beginner": [...],
-            "intermediate": [...],
-            "advanced": [...]
+            "beginner": ["...", "..."],
+            "intermediate": ["...", "..."],
+            "advanced": ["...", "..."]
         }},
         "certifications": [
             {{"name": "...", "description": "...", "url": "..."}}
         ],
         "projects": [
-            {{"title": "...", "description": "...", "skills_developed": [...], "difficulty": "..."}}
-        ]
+            {{
+                "title": "...",
+                "description": "...",
+                "skills_developed": ["...", "..."],
+                "difficulty": "beginner/intermediate/advanced"
+            }}
+        ],
+        "job_market_trends": {{
+            "demand_growth_percentage": ...,
+            "industry_growth_percentages": [
+                {{"industry": "...", "growth_percentage": ...}},
+                {{"industry": "...", "growth_percentage": ...}}
+            ],
+            "salary_expectations": {{"min_salary_usd": ..., "max_salary_usd": ...}},
+            "emerging_skills": ["...", "..."],
+            "future_outlook_summary": "..."
+        }},
+        "competitive_metrics": {{
+            "average_applicants_per_role": {{
+                "current_year": ...,
+                "previous_years": [{{"year": ..., "value": ...}}, {{"year": ..., "value": ...}}]
+            }},
+            "average_time_to_hire_days": {{
+                "current_year": ...,
+                "previous_years": [{{"year": ..., "value": ...}}, {{"year": ..., "value": ...}}]
+            }},
+            "skills_highest_in_demand": ["...", "..."],
+            "competitive_advantages": ["...", "..."],
+            "recommendations_to_stand_out": ["...", "..."]
+        }}
     }}
 
-    Return only JSON.
+    Guidelines:
+    - Clearly provide numerical values for demand growth percentages, industry growth percentages, salary expectations (USD), and competitive metrics including previous years' data.
+    - Align all recommendations closely with the user's skills, target roles, industries, and preferences.
+    - Provide actionable and structured recommendations suitable for career growth.
+    - Return only valid JSON.
     """
     return prompt
 
@@ -49,7 +81,6 @@ def get_career_recommendations(prompt):
 
 def extract_json(text):
     try:
-        # Extract JSON from text using regex
         json_match = re.search(r'\{.*\}', text, re.DOTALL)
         if json_match:
             return json.loads(json_match.group())
@@ -68,11 +99,8 @@ if __name__ == "__main__":
     prompt = generate_gemini_prompt(combined_text)
     raw_response = get_career_recommendations(prompt)
 
-    # Print raw response for debugging if needed
-    print(raw_response)
+    print(raw_response)  # For debugging and verification
 
-    # Extract JSON safely
     recommendations = extract_json(raw_response)
 
-    # Save structured recommendations
     save_to_json(recommendations, "career_recommendations.json")
