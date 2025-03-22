@@ -21,6 +21,10 @@ app.use(express.json());
 const githubRoutes = require("./routes/github");
 app.use("/api/github", githubRoutes);
 
+const uploadResumeRoutes = require("./routes/uploadResume");
+app.use("/api/uploadResume", uploadResumeRoutes);
+
+
 const PORT = 5002;
 app.listen(PORT, () => {
   console.log(`Server running on port ${PORT}`);
