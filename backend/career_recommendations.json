@@ -9,139 +9,121 @@
         "Assembly",
         "MatLab",
         "LaTeX",
-        "PyTorch",
-        "Hugging Face",
-        "NumPy",
-        "Scikit-Learn",
-        "VS Code",
-        "Figma",
-        "Energia",
-        "Linux",
-        "GitHub",
-        "Flutter",
-        "OpenGL",
-        "React",
+        "Embedded Systems",
+        "Machine Learning",
         "Deep Learning",
-        "Transfer Learning",
-        "Parameter-Efficient Fine-Tuning",
-        "Virtual Reality",
-        "Unity",
-        "Variational Autoencoders",
-        "Image Classification"
+        "Hardware-Software Integration",
+        "System Optimization",
+        "Communication Protocols (SPI, I2C, UART)",
+        "Microcontroller Programming",
+        "Virtual Reality Interface Design",
+        "3D Mapping",
+        "Motion Recognition",
+        "Computer Architecture Design",
+        "Project Management",
+        "Team Leadership"
     ],
     "recommended_target_roles": [
-        "Machine Learning Engineer",
-        "AI Developer",
-        "Data Scientist",
-        "Software Engineer (AI/ML specialization)"
+        "Embedded Systems Engineer",
+        "Embedded Software Engineer",
+        "Robotics Engineer",
+        "Firmware Engineer",
+        "Research Scientist (Robotics/Embedded Systems)"
     ],
     "skill_roadmap": {
         "beginner": [
-            "Solidify foundational ML algorithms (Linear Regression, Logistic Regression, Decision Trees)",
-            "Expand data manipulation skills with Pandas and SQL",
-            "Explore basic cloud computing concepts (AWS, Azure, GCP)"
+            "Basic Electronics",
+            "Circuit Design",
+            "Soldering",
+            "PCB Design"
         ],
         "intermediate": [
-            "Deepen understanding of neural networks (CNNs, RNNs, Transformers)",
-            "Master advanced ML techniques (Boosting, Bagging, Ensemble Methods)",
-            "Build and deploy ML models using cloud platforms (AWS SageMaker, Azure ML Studio, Google AI Platform)"
+            "Real-Time Operating Systems (RTOS)",
+            "Advanced C/C++ Programming for Embedded Systems",
+            "Driver Development",
+            "Digital Signal Processing (DSP)"
         ],
         "advanced": [
-            "Explore cutting-edge research areas (Reinforcement Learning, Generative Adversarial Networks)",
-            "Develop expertise in MLOps and model deployment pipelines (Kubernetes, Docker)",
-            "Contribute to open-source ML projects and build a strong online presence"
+            "FPGA Development",
+            "System-on-Chip (SoC) Design",
+            "Advanced Embedded Security",
+            "Computer Vision"
         ]
     },
     "certifications": [
         {
-            "name": "AWS Certified Machine Learning \u2013 Specialty",
-            "description": "Demonstrates expertise in building, training, and deploying machine learning models on AWS.",
-            "url": "https://aws.amazon.com/certification/certified-machine-learning-specialty/"
+            "name": "Certified Embedded Software Professional (CESP)",
+            "description": "Demonstrates competency in embedded software development.",
+            "url": "https://www.embedded.com/cesp/"
         },
         {
-            "name": "Microsoft Certified: Azure AI Engineer Associate",
-            "description": "Validates skills in designing, building, and deploying AI solutions on Azure.",
-            "url": "https://learn.microsoft.com/en-us/certifications/azure-ai-engineer/"
-        },
-        {
-            "name": "Google Cloud Professional Machine Learning Engineer",
-            "description": "Certifies expertise in designing, building, and managing ML solutions on Google Cloud.",
-            "url": "https://cloud.google.com/certification/machine-learning-engineer"
+            "name": "Professional Certificate in Embedded Systems Engineering",
+            "description": "Offered by various universities, provides in-depth knowledge of embedded systems.",
+            "url": "https://www.edx.org/professional-certificate/uc-irvinex-embedded-systems-engineering"
         }
     ],
     "projects": [
         {
-            "title": "Medical Image Analysis for Disease Detection",
-            "description": "Develop a deep learning model to detect diseases from medical images (X-rays, CT scans).",
+            "title": "Smart Home Automation System",
+            "description": "Develop a smart home system using microcontrollers and sensors to control lighting, temperature, and security.",
             "skills_developed": [
-                "Deep Learning",
-                "Computer Vision",
-                "Medical Image Analysis"
+                "Embedded Systems",
+                "Sensor Integration",
+                "IoT",
+                "Wireless Communication"
             ],
             "difficulty": "intermediate"
         },
         {
-            "title": "Financial Time Series Forecasting",
-            "description": "Build a model to predict stock prices or other financial time series data.",
+            "title": "Custom Drone Controller",
+            "description": "Design and build a drone controller with custom functionalities using an embedded system.",
             "skills_developed": [
-                "Time Series Analysis",
-                "Machine Learning",
-                "Financial Modeling"
-            ],
-            "difficulty": "intermediate"
-        },
-        {
-            "title": "Autonomous Driving Simulation",
-            "description": "Create a simulation environment for testing autonomous driving algorithms.",
-            "skills_developed": [
-                "Reinforcement Learning",
-                "Robotics",
-                "Simulation"
+                "Embedded Systems",
+                "Control Systems",
+                "Wireless Communication",
+                "Real-time Processing"
             ],
             "difficulty": "advanced"
         }
     ],
     "job_market_trends": {
-        "demand_growth_percentage": 25,
+        "demand_growth_percentage": 7,
         "industry_growth_percentages": [
             {
-                "industry": "Technology",
+                "industry": "Gaming",
+                "growth_percentage": 12
+            },
+            {
+                "industry": "Cybersecurity",
                 "growth_percentage": 30
             },
             {
-                "industry": "Healthcare and Biomedical Technology",
-                "growth_percentage": 20
-            },
-            {
-                "industry": "Automotive (Autonomous Driving)",
-                "growth_percentage": 25
-            },
-            {
-                "industry": "Financial Technology (FinTech)",
+                "industry": "Healthcare",
                 "growth_percentage": 15
             }
         ],
         "salary_expectations": {
-            "min_salary_usd": 90000,
-            "max_salary_usd": 150000
+            "min_salary_usd": 80000,
+            "max_salary_usd": 130000
         },
         "emerging_skills": [
-            "MLOps",
-            "Large Language Models",
-            "Edge AI"
+            "TinyML",
+            "AI on the Edge",
+            "RISC-V Architecture",
+            "IoT Security"
         ],
-        "future_outlook_summary": "The field of AI/ML is expected to experience continued rapid growth, with high demand for skilled professionals across various industries."
+        "future_outlook_summary": "The embedded systems field is experiencing significant growth due to increasing demand for smart devices, IoT, and automation across various industries. Specialized skills in areas like AI on the Edge and embedded security are highly sought after."
     },
     "competitive_metrics": {
         "average_applicants_per_role": {
             "current_year": 150,
             "previous_years": [
                 {
-                    "year": 2023,
+                    "year": 2022,
                     "value": 120
                 },
                 {
-                    "year": 2022,
+                    "year": 2021,
                     "value": 100
                 }
             ]
@@ -150,30 +132,32 @@
             "current_year": 45,
             "previous_years": [
                 {
-                    "year": 2023,
-                    "value": 50
+                    "year": 2022,
+                    "value": 30
                 },
                 {
-                    "year": 2022,
-                    "value": 60
+                    "year": 2021,
+                    "value": 25
                 }
             ]
         },
         "skills_highest_in_demand": [
-            "Deep Learning",
-            "Cloud Computing",
-            "MLOps",
-            "Natural Language Processing"
+            "C/C++",
+            "RTOS",
+            "Embedded Linux",
+            "Firmware Development",
+            "IoT Security"
         ],
         "competitive_advantages": [
-            "Master's degree in Applied Machine Learning",
-            "Strong project portfolio",
-            "Internship experience at Cognizant"
+            "Master's degree in Computer Engineering",
+            "Experience with Machine Learning and Deep Learning",
+            "Strong project portfolio showcasing embedded systems skills"
         ],
         "recommendations_to_stand_out": [
-            "Develop expertise in emerging areas like MLOps and Large Language Models",
-            "Build a strong online presence through contributions to open-source projects and personal blog/portfolio",
-            "Network actively with professionals in the field"
+            "Contribute to open-source embedded systems projects",
+            "Build a strong online presence showcasing your skills and projects",
+            "Network with professionals in the embedded systems community",
+            "Tailor your resume and cover letter to highlight relevant skills for each target role"
         ]
     }
 }

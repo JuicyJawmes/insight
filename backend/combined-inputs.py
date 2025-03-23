@@ -1,5 +1,3 @@
-# combine_inputs.py
-
 def combine_files(file_list, output_filename):
     combined = ''
     
@@ -22,7 +20,7 @@ def combine_files(file_list, output_filename):
 if __name__ == "__main__":
     files = [
         "extracted_resumes/output_resume.txt",   # Resume content
-        "user_input/user_input.txt",              # User preferences/input
+        "user_inputs/default_user_input.txt",              # User preferences/input
         "github_outputs/JuicyJawmes_github_repos.txt" # GitHub data saved earlier
     ]
 

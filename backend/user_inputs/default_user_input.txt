@@ -1,3 +1,3 @@
-targetRoles: Product Manager, DevOps Engineer, Backend Developer
-workPreferences: Onsite, Hybrid
-industryInterests: Cybersecurity, EdTech, Healthcare, E-Commerce
+targetRoles: Research Scientist, Cybersecurity Analyst, Embedded Systems Engineer
+workPreferences: Full-Time
+industryInterests: Gaming, Cybersecurity, Healthcare
