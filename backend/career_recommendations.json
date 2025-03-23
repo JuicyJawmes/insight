@@ -24,31 +24,39 @@
         "Deep Learning",
         "Transfer Learning",
         "Parameter-Efficient Fine-Tuning",
-        "Virtual Reality",
-        "Unity",
-        "Variational Autoencoders"
+        "Virtual Reality Interface Design",
+        "Haptic Feedback Integration",
+        "Variational Autoencoders",
+        "Molecular Analysis",
+        "Image Classification",
+        "Model Optimization"
     ],
     "recommended_target_roles": [
         "Machine Learning Engineer",
         "Deep Learning Engineer",
         "Generative AI Engineer",
-        "AI Research Scientist"
+        "AI Research Scientist",
+        "Computer Vision Engineer"
     ],
     "skill_roadmap": {
         "beginner": [
-            "Solidify Python fundamentals",
-            "Explore basic machine learning algorithms",
-            "Familiarize with version control (Git)"
+            "Data Structures and Algorithms",
+            "Basic Statistics and Probability",
+            "Supervised Learning Algorithms (Linear Regression, Logistic Regression, Decision Trees)",
+            "Data Manipulation and Visualization (Pandas, Matplotlib)"
         ],
         "intermediate": [
-            "Deepen understanding of deep learning architectures",
-            "Implement and train various generative models",
-            "Learn cloud computing platforms (AWS, Azure, GCP)"
+            "Unsupervised Learning Algorithms (Clustering, Dimensionality Reduction)",
+            "Neural Networks (MLP, CNN, RNN)",
+            "Model Evaluation and Selection",
+            "Cloud Computing Basics (AWS, Azure, GCP)"
         ],
         "advanced": [
-            "Master advanced deep learning techniques (e.g., reinforcement learning)",
-            "Contribute to open-source machine learning projects",
-            "Explore cutting-edge research in AI"
+            "Reinforcement Learning",
+            "Natural Language Processing",
+            "Computer Vision",
+            "MLOps",
+            "Distributed Computing"
         ]
     },
     "certifications": {
@@ -59,20 +67,20 @@
                 "url": "https://www.coursera.org/professional-certificates/google-it-automation"
             },
             {
-                "name": "Microsoft Certified: Azure AI Fundamentals",
-                "description": "Provides foundational knowledge of machine learning and AI concepts on Azure.",
-                "url": "https://learn.microsoft.com/en-us/certifications/azure-ai-fundamentals/"
+                "name": "Microsoft Certified: Azure Data Scientist Associate",
+                "description": "Demonstrates foundational knowledge of data science and machine learning on Azure.",
+                "url": "https://learn.microsoft.com/en-us/certifications/azure-data-scientist"
             }
         ],
         "intermediate": [
             {
                 "name": "TensorFlow Developer Certificate",
-                "description": "Demonstrates proficiency in building and deploying TensorFlow models.",
+                "description": "Validates skills in building and deploying TensorFlow models.",
                 "url": "https://www.tensorflow.org/certificate"
             },
             {
                 "name": "AWS Certified Machine Learning \u2013 Specialty",
-                "description": "Validates expertise in designing, implementing, and maintaining machine learning solutions on AWS.",
+                "description": "Demonstrates expertise in designing, implementing, and maintaining machine learning solutions on AWS.",
                 "url": "https://aws.amazon.com/certification/certified-machine-learning-specialty/"
             }
         ],
@@ -84,7 +92,7 @@
             },
             {
                 "name": "Certified Kubernetes Administrator (CKA)",
-                "description": "Demonstrates expertise in managing and deploying containerized applications using Kubernetes.",
+                "description": "Demonstrates expertise in deploying and managing containerized applications using Kubernetes.",
                 "url": "https://www.cncf.io/certification/cka/"
             }
         ]
@@ -92,60 +100,56 @@
     "projects": {
         "beginner": [
             {
-                "title": "Image Classification Web App",
-                "description": "Build a web application that classifies images using a pre-trained model.",
+                "title": "Customer Churn Prediction",
+                "description": "Build a model to predict customer churn using a publicly available dataset.",
                 "skills_developed": [
-                    "Flask/Django",
-                    "REST APIs",
-                    "Image Processing"
+                    "Data Cleaning",
+                    "Feature Engineering",
+                    "Model Selection"
                 ]
             },
             {
-                "title": "Sentiment Analysis of Tweets",
-                "description": "Analyze the sentiment of tweets using natural language processing techniques.",
+                "title": "Movie Recommendation System",
+                "description": "Develop a recommendation system using collaborative filtering.",
                 "skills_developed": [
-                    "NLP",
-                    "Text Preprocessing",
-                    "Sentiment Classification"
+                    "Data Manipulation",
+                    "Recommendation Algorithms"
                 ]
             }
         ],
         "intermediate": [
             {
-                "title": "Generative Adversarial Network (GAN) for Image Generation",
-                "description": "Implement a GAN to generate realistic images.",
+                "title": "Image Classifier for Medical Diagnosis",
+                "description": "Train a CNN to classify medical images for disease detection.",
                 "skills_developed": [
-                    "GANs",
-                    "Image Synthesis",
-                    "Deep Learning"
+                    "Convolutional Neural Networks",
+                    "Image Processing",
+                    "Transfer Learning"
                 ]
             },
             {
-                "title": "Time Series Forecasting with LSTMs",
-                "description": "Forecast time series data using Long Short-Term Memory (LSTM) networks.",
+                "title": "Time Series Forecasting for Stock Prices",
+                "description": "Build a model to forecast stock prices using LSTM networks.",
                 "skills_developed": [
-                    "LSTMs",
-                    "Time Series Analysis",
-                    "Deep Learning"
+                    "Recurrent Neural Networks",
+                    "Time Series Analysis"
                 ]
             }
         ],
         "advanced": [
             {
-                "title": "Reinforcement Learning for Game Playing",
-                "description": "Train a reinforcement learning agent to play a game like Atari or chess.",
+                "title": "Reinforcement Learning Agent for Game Playing",
+                "description": "Develop a reinforcement learning agent to play a game like Atari or Chess.",
                 "skills_developed": [
-                    "Reinforcement Learning",
-                    "Game AI",
-                    "Deep Learning"
+                    "Reinforcement Learning Algorithms",
+                    "Game AI"
                 ]
             },
             {
-                "title": "Developing a Custom Deep Learning Model for a Specific Task",
-                "description": "Design and implement a deep learning model for a specific task, such as medical image segmentation.",
+                "title": "Generative Adversarial Network for Image Synthesis",
+                "description": "Build a GAN to generate realistic images.",
                 "skills_developed": [
-                    "Model Architecture Design",
-                    "Custom Loss Functions",
+                    "Generative Adversarial Networks",
                     "Deep Learning"
                 ]
             }
@@ -172,7 +176,7 @@
             "Explainable AI (XAI)",
             "Edge AI"
         ],
-        "future_outlook_summary": "The field of AI and Machine Learning is expected to continue its rapid growth, with increasing demand for skilled professionals."
+        "future_outlook_summary": "The field of AI and Machine Learning is expected to experience significant growth in the coming years, with increasing demand for skilled professionals."
     },
     "competitive_metrics": {
         "average_applicants_per_role": {
@@ -189,7 +193,7 @@
             ]
         },
         "average_time_to_hire_days": {
-            "current_year": 45,
+            "current_year": 60,
             "previous_years": [
                 {
                     "year": 2023,
@@ -197,24 +201,25 @@
                 },
                 {
                     "year": 2022,
-                    "value": 60
+                    "value": 45
                 }
             ]
         },
         "skills_highest_in_demand": [
             "Deep Learning",
             "Natural Language Processing",
-            "Computer Vision"
+            "Cloud Computing",
+            "MLOps"
         ],
         "competitive_advantages": [
             "Strong project portfolio",
             "Practical experience with ML tools and frameworks",
-            "Publications in reputable conferences/journals"
+            "Knowledge of emerging technologies"
         ],
         "recommendations_to_stand_out": [
             "Contribute to open-source projects",
-            "Build a strong online presence",
-            "Network with professionals in the field"
+            "Participate in Kaggle competitions",
+            "Build a strong online presence"
         ]
     }
 }
