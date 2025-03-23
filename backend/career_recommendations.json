@@ -9,121 +9,177 @@
         "Assembly",
         "MatLab",
         "LaTeX",
-        "Embedded Systems",
-        "Machine Learning",
-        "Deep Learning",
-        "Hardware-Software Integration",
-        "System Optimization",
         "Communication Protocols (SPI, I2C, UART)",
-        "Microcontroller Programming",
-        "Virtual Reality Interface Design",
+        "Embedded Systems",
+        "Hardware Abstraction Layers",
+        "Deep Learning",
+        "PyTorch",
+        "Hugging Face",
+        "Parameter-efficient fine-tuning",
+        "Virtual Reality Interfaces",
+        "Unity",
+        "Sensor data processing",
+        "Microcontroller programming",
         "3D Mapping",
         "Motion Recognition",
-        "Computer Architecture Design",
-        "Project Management",
-        "Team Leadership"
+        "Neural Networks",
+        "Computer Architecture"
     ],
     "recommended_target_roles": [
-        "Embedded Systems Engineer",
-        "Embedded Software Engineer",
-        "Robotics Engineer",
-        "Firmware Engineer",
-        "Research Scientist (Robotics/Embedded Systems)"
+        "Cloud Engineer",
+        "Backend Developer",
+        "Embedded Systems Engineer"
     ],
     "skill_roadmap": {
         "beginner": [
-            "Basic Electronics",
-            "Circuit Design",
-            "Soldering",
-            "PCB Design"
+            "Linux Fundamentals",
+            "Version Control (Git)",
+            "Basic Cloud Concepts (AWS, Azure, GCP)"
         ],
         "intermediate": [
-            "Real-Time Operating Systems (RTOS)",
-            "Advanced C/C++ Programming for Embedded Systems",
-            "Driver Development",
-            "Digital Signal Processing (DSP)"
+            "Containerization (Docker, Kubernetes)",
+            "CI/CD Pipelines",
+            "Database Management (SQL, NoSQL)"
         ],
         "advanced": [
-            "FPGA Development",
-            "System-on-Chip (SoC) Design",
-            "Advanced Embedded Security",
-            "Computer Vision"
+            "Cloud Security Best Practices",
+            "Advanced System Design",
+            "Distributed Systems"
         ]
     },
-    "certifications": [
-        {
-            "name": "Certified Embedded Software Professional (CESP)",
-            "description": "Demonstrates competency in embedded software development.",
-            "url": "https://www.embedded.com/cesp/"
-        },
-        {
-            "name": "Professional Certificate in Embedded Systems Engineering",
-            "description": "Offered by various universities, provides in-depth knowledge of embedded systems.",
-            "url": "https://www.edx.org/professional-certificate/uc-irvinex-embedded-systems-engineering"
-        }
-    ],
-    "projects": [
-        {
-            "title": "Smart Home Automation System",
-            "description": "Develop a smart home system using microcontrollers and sensors to control lighting, temperature, and security.",
-            "skills_developed": [
-                "Embedded Systems",
-                "Sensor Integration",
-                "IoT",
-                "Wireless Communication"
-            ],
-            "difficulty": "intermediate"
-        },
-        {
-            "title": "Custom Drone Controller",
-            "description": "Design and build a drone controller with custom functionalities using an embedded system.",
-            "skills_developed": [
-                "Embedded Systems",
-                "Control Systems",
-                "Wireless Communication",
-                "Real-time Processing"
-            ],
-            "difficulty": "advanced"
-        }
-    ],
+    "certifications": {
+        "beginner": [
+            {
+                "name": "AWS Certified Cloud Practitioner",
+                "description": "Foundational AWS cloud knowledge.",
+                "url": "https://aws.amazon.com/certification/certified-cloud-practitioner/"
+            },
+            {
+                "name": "Google IT Support Professional Certificate",
+                "description": "Introduction to IT support and cloud fundamentals.",
+                "url": "https://grow.google/certificates/it-support/"
+            }
+        ],
+        "intermediate": [
+            {
+                "name": "AWS Certified Solutions Architect - Associate",
+                "description": "Design and deploy scalable AWS solutions.",
+                "url": "https://aws.amazon.com/certification/certified-solutions-architect-associate/"
+            },
+            {
+                "name": "Microsoft Certified: Azure Developer Associate",
+                "description": "Develop and deploy cloud applications on Azure.",
+                "url": "https://learn.microsoft.com/en-us/certifications/azure-developer-associate/"
+            }
+        ],
+        "advanced": [
+            {
+                "name": "AWS Certified Solutions Architect - Professional",
+                "description": "Advanced AWS architectural skills.",
+                "url": "https://aws.amazon.com/certification/certified-solutions-architect-professional/"
+            },
+            {
+                "name": "Certified Kubernetes Administrator (CKA)",
+                "description": "Manage and deploy Kubernetes clusters.",
+                "url": "https://www.cncf.io/certification/cka/"
+            }
+        ]
+    },
+    "projects": {
+        "beginner": [
+            {
+                "title": "Personal Website",
+                "description": "Build a static website using HTML, CSS, and JavaScript.",
+                "skills_developed": [
+                    "HTML/CSS",
+                    "JavaScript",
+                    "Web Development"
+                ]
+            },
+            {
+                "title": "Simple REST API",
+                "description": "Create a basic REST API using Python and Flask/Django.",
+                "skills_developed": [
+                    "Python",
+                    "API Development",
+                    "Backend Development"
+                ]
+            }
+        ],
+        "intermediate": [
+            {
+                "title": "E-commerce Product Catalog",
+                "description": "Develop a web application to display and manage products.",
+                "skills_developed": [
+                    "Frontend Development",
+                    "Backend Development",
+                    "Database Management"
+                ]
+            },
+            {
+                "title": "Cloud-Based Image Processing Application",
+                "description": "Build an application to upload, process, and store images using cloud services.",
+                "skills_developed": [
+                    "Cloud Computing",
+                    "Image Processing",
+                    "API Development"
+                ]
+            }
+        ],
+        "advanced": [
+            {
+                "title": "Distributed Real-time Data Processing System",
+                "description": "Design and implement a system to process real-time data using distributed technologies.",
+                "skills_developed": [
+                    "Distributed Systems",
+                    "Real-time Data Processing",
+                    "Cloud Computing"
+                ]
+            },
+            {
+                "title": "Microservices-based Application",
+                "description": "Build an application using microservices architecture and deploy it to a cloud platform.",
+                "skills_developed": [
+                    "Microservices",
+                    "Cloud Computing",
+                    "API Development"
+                ]
+            }
+        ]
+    },
     "job_market_trends": {
-        "demand_growth_percentage": 7,
+        "demand_growth_percentage": 25,
         "industry_growth_percentages": [
-            {
-                "industry": "Gaming",
-                "growth_percentage": 12
-            },
-            {
-                "industry": "Cybersecurity",
-                "growth_percentage": 30
-            },
             {
                 "industry": "Healthcare",
                 "growth_percentage": 15
+            },
+            {
+                "industry": "E-Commerce",
+                "growth_percentage": 20
             }
         ],
         "salary_expectations": {
             "min_salary_usd": 80000,
-            "max_salary_usd": 130000
+            "max_salary_usd": 140000
         },
         "emerging_skills": [
-            "TinyML",
-            "AI on the Edge",
-            "RISC-V Architecture",
-            "IoT Security"
+            "Serverless Computing",
+            "AI/ML Engineering",
+            "Edge Computing"
         ],
-        "future_outlook_summary": "The embedded systems field is experiencing significant growth due to increasing demand for smart devices, IoT, and automation across various industries. Specialized skills in areas like AI on the Edge and embedded security are highly sought after."
+        "future_outlook_summary": "Strong growth predicted with increasing demand for cloud and AI/ML skills."
     },
     "competitive_metrics": {
         "average_applicants_per_role": {
             "current_year": 150,
             "previous_years": [
                 {
-                    "year": 2022,
+                    "year": 2023,
                     "value": 120
                 },
                 {
-                    "year": 2021,
+                    "year": 2022,
                     "value": 100
                 }
             ]
@@ -132,32 +188,28 @@
             "current_year": 45,
             "previous_years": [
                 {
-                    "year": 2022,
-                    "value": 30
+                    "year": 2023,
+                    "value": 40
                 },
                 {
-                    "year": 2021,
-                    "value": 25
+                    "year": 2022,
+                    "value": 35
                 }
             ]
         },
         "skills_highest_in_demand": [
-            "C/C++",
-            "RTOS",
-            "Embedded Linux",
-            "Firmware Development",
-            "IoT Security"
+            "Cloud Security",
+            "Kubernetes",
+            "AI/ML"
         ],
         "competitive_advantages": [
-            "Master's degree in Computer Engineering",
-            "Experience with Machine Learning and Deep Learning",
-            "Strong project portfolio showcasing embedded systems skills"
+            "Strong foundation in embedded systems",
+            "Experience with machine learning"
         ],
         "recommendations_to_stand_out": [
-            "Contribute to open-source embedded systems projects",
-            "Build a strong online presence showcasing your skills and projects",
-            "Network with professionals in the embedded systems community",
-            "Tailor your resume and cover letter to highlight relevant skills for each target role"
+            "Develop strong cloud and backend skills",
+            "Build a portfolio of relevant projects",
+            "Obtain industry-recognized certifications"
         ]
     }
 }

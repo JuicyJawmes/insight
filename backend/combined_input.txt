@@ -69,9 +69,9 @@ integration.
 
 
 --- user_inputs/default_user_input.txt ---
-targetRoles: Research Scientist, Cybersecurity Analyst, Embedded Systems Engineer
-workPreferences: Full-Time
-industryInterests: Gaming, Cybersecurity, Healthcare
+targetRoles: Cloud Engineer, Backend Developer, Frontend Developer
+workPreferences: Onsite, Internship
+industryInterests: Healthcare, E-Commerce
 
 
 --- github_outputs/JuicyJawmes_github_repos.txt ---

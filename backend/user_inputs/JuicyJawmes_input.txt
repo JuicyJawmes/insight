@@ -1,0 +1,3 @@
+targetRoles: Data Scientist, Backend Developer, Frontend Developer, AI/ML Engineer, DevOps Engineer, Mobile Developer, Software Engineer
+workPreferences: Full-Time
+industryInterests: Healthcare, Fintech, AI/ML
