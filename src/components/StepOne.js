@@ -124,7 +124,7 @@ const StepOne = ({ onNext }) => {
       formData.append("resume", resume);
 
       try {
-        const response = await fetch("http://localhost:5001/api/resume", {
+        const response = await fetch("http://localhost:5002/api/resume", {
           method: "POST",
           body: formData,
         });
@@ -137,7 +137,7 @@ const StepOne = ({ onNext }) => {
 
     if (github.trim()) {
       try {
-        const response = await fetch("http://localhost:5001/api/github", {
+        const response = await fetch("http://localhost:5002/api/github", {
           method: "POST",
           headers: { "Content-Type": "application/json" },
           body: JSON.stringify({ username: github }),
