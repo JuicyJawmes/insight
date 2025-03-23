@@ -1,0 +1,21 @@
+.roadmap-container {
+    padding: 2rem;
+    color: #fff;
+    background-color: #121212;
+  }
+  
+  .roadmap-section {
+    margin-bottom: 2rem;
+  }
+  
+  .skill-columns {
+    display: flex;
+    gap: 1rem;
+  }
+  
+  .skill-card, .cert-card, .project-card {
+    background-color: #1e1e1e;
+    color: white;
+    flex: 1;
+  }
+  
