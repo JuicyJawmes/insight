@@ -9,177 +9,178 @@
         "Assembly",
         "MatLab",
         "LaTeX",
-        "Communication Protocols (SPI, I2C, UART)",
-        "Embedded Systems",
-        "Hardware Abstraction Layers",
+        "Machine Learning",
         "Deep Learning",
+        "Embedded Systems",
+        "Hardware-Software Integration",
+        "Communication Protocols (SPI, I2C, UART)",
         "PyTorch",
         "Hugging Face",
-        "Parameter-efficient fine-tuning",
-        "Virtual Reality Interfaces",
         "Unity",
-        "Sensor data processing",
-        "Microcontroller programming",
-        "3D Mapping",
-        "Motion Recognition",
-        "Neural Networks",
-        "Computer Architecture"
+        "Arduino",
+        "Keil uVision",
+        "MPLAB X",
+        "STM32CubeIDE",
+        "PSpice",
+        "Makefiles/CMake",
+        "GitHub"
     ],
     "recommended_target_roles": [
-        "Cloud Engineer",
         "Backend Developer",
-        "Embedded Systems Engineer"
+        "Software Engineer",
+        "Android Developer",
+        "Embedded Software Engineer",
+        "Machine Learning Engineer"
     ],
     "skill_roadmap": {
         "beginner": [
-            "Linux Fundamentals",
-            "Version Control (Git)",
-            "Basic Cloud Concepts (AWS, Azure, GCP)"
+            "Strengthen foundational knowledge in Python, Java, or C++",
+            "Familiarize yourself with basic data structures and algorithms",
+            "Learn version control with Git and GitHub"
         ],
         "intermediate": [
-            "Containerization (Docker, Kubernetes)",
-            "CI/CD Pipelines",
-            "Database Management (SQL, NoSQL)"
+            "Deepen understanding of backend frameworks (e.g., Django, Spring Boot)",
+            "Explore cloud platforms (e.g., AWS, Azure, GCP)",
+            "Learn database management (e.g., SQL, NoSQL)"
         ],
         "advanced": [
-            "Cloud Security Best Practices",
-            "Advanced System Design",
-            "Distributed Systems"
+            "Master design patterns and software architecture principles",
+            "Gain expertise in containerization (e.g., Docker, Kubernetes)",
+            "Dive into advanced machine learning techniques and frameworks (e.g., TensorFlow, PyTorch)"
         ]
     },
     "certifications": {
         "beginner": [
             {
-                "name": "AWS Certified Cloud Practitioner",
-                "description": "Foundational AWS cloud knowledge.",
-                "url": "https://aws.amazon.com/certification/certified-cloud-practitioner/"
+                "name": "Google IT Support Professional Certificate",
+                "description": "Foundational IT skills",
+                "url": "https://www.coursera.org/professional-certificates/google-it-support"
             },
             {
-                "name": "Google IT Support Professional Certificate",
-                "description": "Introduction to IT support and cloud fundamentals.",
-                "url": "https://grow.google/certificates/it-support/"
+                "name": "AWS Certified Cloud Practitioner",
+                "description": "Basic cloud computing knowledge",
+                "url": "https://aws.amazon.com/certification/certified-cloud-practitioner/"
             }
         ],
         "intermediate": [
             {
-                "name": "AWS Certified Solutions Architect - Associate",
-                "description": "Design and deploy scalable AWS solutions.",
-                "url": "https://aws.amazon.com/certification/certified-solutions-architect-associate/"
+                "name": "AWS Certified Developer \u2013 Associate",
+                "description": "Cloud development skills",
+                "url": "https://aws.amazon.com/certification/certified-developer-associate/"
             },
             {
-                "name": "Microsoft Certified: Azure Developer Associate",
-                "description": "Develop and deploy cloud applications on Azure.",
-                "url": "https://learn.microsoft.com/en-us/certifications/azure-developer-associate/"
+                "name": "Google Professional Cloud Architect",
+                "description": "Advanced cloud architecture skills",
+                "url": "https://cloud.google.com/certification/cloud-architect"
             }
         ],
         "advanced": [
             {
-                "name": "AWS Certified Solutions Architect - Professional",
-                "description": "Advanced AWS architectural skills.",
-                "url": "https://aws.amazon.com/certification/certified-solutions-architect-professional/"
+                "name": "AWS Certified Machine Learning \u2013 Specialty",
+                "description": "Specialized machine learning skills on AWS",
+                "url": "https://aws.amazon.com/certification/certified-machine-learning-specialty/"
             },
             {
-                "name": "Certified Kubernetes Administrator (CKA)",
-                "description": "Manage and deploy Kubernetes clusters.",
-                "url": "https://www.cncf.io/certification/cka/"
+                "name": "TensorFlow Developer Certificate",
+                "description": "Demonstrates proficiency in TensorFlow",
+                "url": "https://www.tensorflow.org/certificate"
             }
         ]
     },
     "projects": {
         "beginner": [
             {
-                "title": "Personal Website",
-                "description": "Build a static website using HTML, CSS, and JavaScript.",
+                "title": "Personal Portfolio Website",
+                "description": "Develop a website showcasing your skills and projects.",
                 "skills_developed": [
-                    "HTML/CSS",
-                    "JavaScript",
-                    "Web Development"
+                    "HTML",
+                    "CSS",
+                    "JavaScript"
                 ]
             },
             {
-                "title": "Simple REST API",
-                "description": "Create a basic REST API using Python and Flask/Django.",
+                "title": "Simple To-Do List App",
+                "description": "Create a basic to-do list application with CRUD operations.",
                 "skills_developed": [
                     "Python",
-                    "API Development",
-                    "Backend Development"
+                    "Backend Framework (e.g., Flask, Django)"
                 ]
             }
         ],
         "intermediate": [
             {
-                "title": "E-commerce Product Catalog",
-                "description": "Develop a web application to display and manage products.",
+                "title": "E-commerce Product Recommendation System",
+                "description": "Build a system that recommends products based on user preferences.",
                 "skills_developed": [
-                    "Frontend Development",
-                    "Backend Development",
-                    "Database Management"
+                    "Machine Learning",
+                    "Python",
+                    "Data Analysis"
                 ]
             },
             {
-                "title": "Cloud-Based Image Processing Application",
-                "description": "Build an application to upload, process, and store images using cloud services.",
+                "title": "Real-time Chat Application",
+                "description": "Develop a chat application using WebSockets.",
                 "skills_developed": [
-                    "Cloud Computing",
-                    "Image Processing",
-                    "API Development"
+                    "Backend Framework (e.g., Node.js, Django)",
+                    "WebSockets",
+                    "Database Management"
                 ]
             }
         ],
         "advanced": [
             {
-                "title": "Distributed Real-time Data Processing System",
-                "description": "Design and implement a system to process real-time data using distributed technologies.",
+                "title": "Custom Machine Learning Model Deployment",
+                "description": "Train and deploy a custom machine learning model for a specific task.",
                 "skills_developed": [
-                    "Distributed Systems",
-                    "Real-time Data Processing",
-                    "Cloud Computing"
+                    "Machine Learning",
+                    "Cloud Computing",
+                    "Model Deployment"
                 ]
             },
             {
-                "title": "Microservices-based Application",
-                "description": "Build an application using microservices architecture and deploy it to a cloud platform.",
+                "title": "Distributed System for Data Processing",
+                "description": "Build a distributed system using technologies like Apache Kafka and Spark.",
                 "skills_developed": [
-                    "Microservices",
-                    "Cloud Computing",
-                    "API Development"
+                    "Big Data",
+                    "Distributed Systems",
+                    "Cloud Computing"
                 ]
             }
         ]
     },
     "job_market_trends": {
-        "demand_growth_percentage": 25,
+        "demand_growth_percentage": 15,
         "industry_growth_percentages": [
             {
-                "industry": "Healthcare",
-                "growth_percentage": 15
+                "industry": "AI/ML",
+                "growth_percentage": 25
             },
             {
-                "industry": "E-Commerce",
-                "growth_percentage": 20
+                "industry": "EdTech",
+                "growth_percentage": 18
             }
         ],
         "salary_expectations": {
             "min_salary_usd": 80000,
-            "max_salary_usd": 140000
+            "max_salary_usd": 150000
         },
         "emerging_skills": [
-            "Serverless Computing",
-            "AI/ML Engineering",
+            "MLOps",
+            "Cloud Native Development",
             "Edge Computing"
         ],
-        "future_outlook_summary": "Strong growth predicted with increasing demand for cloud and AI/ML skills."
+        "future_outlook_summary": "Strong growth expected in software development, particularly in AI/ML and cloud-related roles."
     },
     "competitive_metrics": {
         "average_applicants_per_role": {
-            "current_year": 150,
+            "current_year": 200,
             "previous_years": [
                 {
-                    "year": 2023,
-                    "value": 120
+                    "year": 2022,
+                    "value": 150
                 },
                 {
-                    "year": 2022,
+                    "year": 2021,
                     "value": 100
                 }
             ]
@@ -188,28 +189,29 @@
             "current_year": 45,
             "previous_years": [
                 {
-                    "year": 2023,
-                    "value": 40
+                    "year": 2022,
+                    "value": 30
                 },
                 {
-                    "year": 2022,
-                    "value": 35
+                    "year": 2021,
+                    "value": 20
                 }
             ]
         },
         "skills_highest_in_demand": [
-            "Cloud Security",
-            "Kubernetes",
-            "AI/ML"
+            "Cloud Computing",
+            "Machine Learning",
+            "Data Science"
         ],
         "competitive_advantages": [
-            "Strong foundation in embedded systems",
-            "Experience with machine learning"
+            "Strong project portfolio",
+            "Relevant certifications",
+            "Practical experience"
         ],
         "recommendations_to_stand_out": [
-            "Develop strong cloud and backend skills",
-            "Build a portfolio of relevant projects",
-            "Obtain industry-recognized certifications"
+            "Contribute to open-source projects",
+            "Network with professionals",
+            "Build a strong online presence"
         ]
     }
 }

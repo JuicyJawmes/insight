@@ -69,9 +69,9 @@ integration.
 
 
 --- user_inputs/default_user_input.txt ---
-targetRoles: Cloud Engineer, Backend Developer, Frontend Developer
-workPreferences: Onsite, Internship
-industryInterests: Healthcare, E-Commerce
+targetRoles: Backend Developer, Software Engineer, Android Developer, Data Scientist
+workPreferences: Remote
+industryInterests: AI/ML, EdTech
 
 
 --- github_outputs/JuicyJawmes_github_repos.txt ---

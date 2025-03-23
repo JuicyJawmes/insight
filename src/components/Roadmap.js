@@ -4,7 +4,7 @@ import React, { useEffect, useState, useRef } from 'react';
 import './Roadmap.css';
 import { Typography, Card, CardContent, Divider, Link, Button } from '@mui/material';
 import WorkIcon from '@mui/icons-material/Work';
-import downArrow from '../assets/down-arrow.png';
+import downArrow from '/Users/james/insight/insight/src/components/assets/down-arrow.png';
 import html2canvas from 'html2canvas';
 import jsPDF from 'jspdf';
 
