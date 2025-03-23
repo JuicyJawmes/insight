@@ -1,0 +1,3 @@
+targetRoles: Software Engineer, DevOps Engineer
+workPreferences: Internship
+industryInterests: Healthcare

@@ -6,7 +6,26 @@ const StepOne = ({ onNext }) => {
 
   const handleNext = async () => {
     console.log("Next button clicked");
-    // Only call GitHub route if username is provided
+  
+    // Upload resume first
+    if (resume) {
+      const formData = new FormData();
+      formData.append("resume", resume);
+  
+      try {
+        const response = await fetch("http://localhost:5001/api/resume", {
+          method: "POST",
+          body: formData,
+        });
+  
+        const result = await response.json();
+        console.log("Resume upload:", result);
+      } catch (error) {
+        console.error("Resume upload failed:", error);
+      }
+    }
+  
+    // Then fetch GitHub data (if any)
     if (github.trim()) {
       try {
         const response = await fetch("http://localhost:5001/api/github", {
@@ -16,19 +35,17 @@ const StepOne = ({ onNext }) => {
           },
           body: JSON.stringify({ username: github }),
         });
-
-        const data = await response.json();
-        console.log("GitHub Repos:", data.repos);
-        // You can store this in global state or pass to parent
-
+        
+        const result = await response.json();
+        console.log("Resume upload response:", result);
       } catch (error) {
-        console.error("Error fetching GitHub data:", error);
+        console.error("Resume upload failed:", error);
       }
     }
-
-    // Move to Step Two regardless
+  
     onNext();
   };
+  
 
   return (
     <div>
