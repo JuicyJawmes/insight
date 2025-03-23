@@ -1,21 +1,87 @@
-.roadmap-container {
-    padding: 2rem;
-    color: #fff;
-    background-color: #121212;
+   /* .roadmap-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px;
+  }
+  
+  .roadmap-intro {
+    text-align: center;
+    margin-bottom: 40px;
+  }
+  
+  .stage-block {
+    width: 80%;
+    background-color: #f8f9fa;
+    border-radius: 12px;
+    padding: 20px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+    margin-bottom: 40px;
   }
   
   .roadmap-section {
-    margin-bottom: 2rem;
+    margin-top: 20px;
   }
   
-  .skill-columns {
+  .card-row {
     display: flex;
-    gap: 1rem;
+    flex-wrap: wrap;
+    gap: 16px;
+    justify-content: center;
+    margin-top: 10px;
   }
   
-  .skill-card, .cert-card, .project-card {
-    background-color: #1e1e1e;
-    color: white;
+  .roadmap-card {
+    width: 260px;
+    border-radius: 10px;
+    transition: 0.3s;
+  }
+  
+  .roadmap-card:hover {
+    transform: translateY(-5px);
+  }
+  
+  .roadmap-arrow {
+    font-size: 48px;
+    color: #1976d2;
+    margin: 10px 0;
+    animation: bounce 1s infinite;
+  }
+  
+  @keyframes bounce {
+    0%, 100% { transform: translateY(0); }
+    50% { transform: translateY(10px); }
+  }
+   */
+
+   .roadmap-container {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    padding: 40px 0;
+  }
+  
+  .stage-block {
+    background: #f9f9f9;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
+  }
+  
+  .card-row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin-top: 20px;
+  }
+  
+  .roadmap-card {
+    min-width: 250px;
     flex: 1;
+    transition: transform 0.3s ease;
+  }
+  
+  .roadmap-card:hover {
+    transform: translateY(-5px);
   }
   
