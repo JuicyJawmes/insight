@@ -1,0 +1,3 @@
+targetRoles: Product Manager, DevOps Engineer, Backend Developer
+workPreferences: Onsite, Hybrid
+industryInterests: Cybersecurity, EdTech, Healthcare, E-Commerce
