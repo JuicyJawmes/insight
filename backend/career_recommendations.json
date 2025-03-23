@@ -9,178 +9,181 @@
         "Assembly",
         "MatLab",
         "LaTeX",
-        "Machine Learning",
-        "Deep Learning",
-        "Embedded Systems",
-        "Hardware-Software Integration",
-        "Communication Protocols (SPI, I2C, UART)",
         "PyTorch",
         "Hugging Face",
+        "NumPy",
+        "Scikit-Learn",
+        "VS Code",
+        "Figma",
+        "Energia",
+        "Linux",
+        "GitHub",
+        "Flutter",
+        "OpenGL",
+        "React",
+        "Deep Learning",
+        "Transfer Learning",
+        "Parameter-Efficient Fine-Tuning",
+        "Virtual Reality",
         "Unity",
-        "Arduino",
-        "Keil uVision",
-        "MPLAB X",
-        "STM32CubeIDE",
-        "PSpice",
-        "Makefiles/CMake",
-        "GitHub"
+        "Variational Autoencoders"
     ],
     "recommended_target_roles": [
-        "Backend Developer",
-        "Software Engineer",
-        "Android Developer",
-        "Embedded Software Engineer",
-        "Machine Learning Engineer"
+        "Machine Learning Engineer",
+        "Deep Learning Engineer",
+        "Generative AI Engineer",
+        "AI Research Scientist"
     ],
     "skill_roadmap": {
         "beginner": [
-            "Strengthen foundational knowledge in Python, Java, or C++",
-            "Familiarize yourself with basic data structures and algorithms",
-            "Learn version control with Git and GitHub"
+            "Solidify Python fundamentals",
+            "Explore basic machine learning algorithms",
+            "Familiarize with version control (Git)"
         ],
         "intermediate": [
-            "Deepen understanding of backend frameworks (e.g., Django, Spring Boot)",
-            "Explore cloud platforms (e.g., AWS, Azure, GCP)",
-            "Learn database management (e.g., SQL, NoSQL)"
+            "Deepen understanding of deep learning architectures",
+            "Implement and train various generative models",
+            "Learn cloud computing platforms (AWS, Azure, GCP)"
         ],
         "advanced": [
-            "Master design patterns and software architecture principles",
-            "Gain expertise in containerization (e.g., Docker, Kubernetes)",
-            "Dive into advanced machine learning techniques and frameworks (e.g., TensorFlow, PyTorch)"
+            "Master advanced deep learning techniques (e.g., reinforcement learning)",
+            "Contribute to open-source machine learning projects",
+            "Explore cutting-edge research in AI"
         ]
     },
     "certifications": {
         "beginner": [
             {
-                "name": "Google IT Support Professional Certificate",
-                "description": "Foundational IT skills",
-                "url": "https://www.coursera.org/professional-certificates/google-it-support"
+                "name": "Google IT Automation with Python Professional Certificate",
+                "description": "Covers core programming concepts and automation techniques using Python.",
+                "url": "https://www.coursera.org/professional-certificates/google-it-automation"
             },
             {
-                "name": "AWS Certified Cloud Practitioner",
-                "description": "Basic cloud computing knowledge",
-                "url": "https://aws.amazon.com/certification/certified-cloud-practitioner/"
+                "name": "Microsoft Certified: Azure AI Fundamentals",
+                "description": "Provides foundational knowledge of machine learning and AI concepts on Azure.",
+                "url": "https://learn.microsoft.com/en-us/certifications/azure-ai-fundamentals/"
             }
         ],
         "intermediate": [
             {
-                "name": "AWS Certified Developer \u2013 Associate",
-                "description": "Cloud development skills",
-                "url": "https://aws.amazon.com/certification/certified-developer-associate/"
+                "name": "TensorFlow Developer Certificate",
+                "description": "Demonstrates proficiency in building and deploying TensorFlow models.",
+                "url": "https://www.tensorflow.org/certificate"
             },
             {
-                "name": "Google Professional Cloud Architect",
-                "description": "Advanced cloud architecture skills",
-                "url": "https://cloud.google.com/certification/cloud-architect"
+                "name": "AWS Certified Machine Learning \u2013 Specialty",
+                "description": "Validates expertise in designing, implementing, and maintaining machine learning solutions on AWS.",
+                "url": "https://aws.amazon.com/certification/certified-machine-learning-specialty/"
             }
         ],
         "advanced": [
             {
-                "name": "AWS Certified Machine Learning \u2013 Specialty",
-                "description": "Specialized machine learning skills on AWS",
-                "url": "https://aws.amazon.com/certification/certified-machine-learning-specialty/"
+                "name": "DeepLearning.AI TensorFlow: Advanced Techniques Specialization",
+                "description": "Covers advanced topics in TensorFlow and deep learning.",
+                "url": "https://www.deeplearning.ai/courses/tensorflow-advanced-techniques-specialization/"
             },
             {
-                "name": "TensorFlow Developer Certificate",
-                "description": "Demonstrates proficiency in TensorFlow",
-                "url": "https://www.tensorflow.org/certificate"
+                "name": "Certified Kubernetes Administrator (CKA)",
+                "description": "Demonstrates expertise in managing and deploying containerized applications using Kubernetes.",
+                "url": "https://www.cncf.io/certification/cka/"
             }
         ]
     },
     "projects": {
         "beginner": [
             {
-                "title": "Personal Portfolio Website",
-                "description": "Develop a website showcasing your skills and projects.",
+                "title": "Image Classification Web App",
+                "description": "Build a web application that classifies images using a pre-trained model.",
                 "skills_developed": [
-                    "HTML",
-                    "CSS",
-                    "JavaScript"
+                    "Flask/Django",
+                    "REST APIs",
+                    "Image Processing"
                 ]
             },
             {
-                "title": "Simple To-Do List App",
-                "description": "Create a basic to-do list application with CRUD operations.",
+                "title": "Sentiment Analysis of Tweets",
+                "description": "Analyze the sentiment of tweets using natural language processing techniques.",
                 "skills_developed": [
-                    "Python",
-                    "Backend Framework (e.g., Flask, Django)"
+                    "NLP",
+                    "Text Preprocessing",
+                    "Sentiment Classification"
                 ]
             }
         ],
         "intermediate": [
             {
-                "title": "E-commerce Product Recommendation System",
-                "description": "Build a system that recommends products based on user preferences.",
+                "title": "Generative Adversarial Network (GAN) for Image Generation",
+                "description": "Implement a GAN to generate realistic images.",
                 "skills_developed": [
-                    "Machine Learning",
-                    "Python",
-                    "Data Analysis"
+                    "GANs",
+                    "Image Synthesis",
+                    "Deep Learning"
                 ]
             },
             {
-                "title": "Real-time Chat Application",
-                "description": "Develop a chat application using WebSockets.",
+                "title": "Time Series Forecasting with LSTMs",
+                "description": "Forecast time series data using Long Short-Term Memory (LSTM) networks.",
                 "skills_developed": [
-                    "Backend Framework (e.g., Node.js, Django)",
-                    "WebSockets",
-                    "Database Management"
+                    "LSTMs",
+                    "Time Series Analysis",
+                    "Deep Learning"
                 ]
             }
         ],
         "advanced": [
             {
-                "title": "Custom Machine Learning Model Deployment",
-                "description": "Train and deploy a custom machine learning model for a specific task.",
+                "title": "Reinforcement Learning for Game Playing",
+                "description": "Train a reinforcement learning agent to play a game like Atari or chess.",
                 "skills_developed": [
-                    "Machine Learning",
-                    "Cloud Computing",
-                    "Model Deployment"
+                    "Reinforcement Learning",
+                    "Game AI",
+                    "Deep Learning"
                 ]
             },
             {
-                "title": "Distributed System for Data Processing",
-                "description": "Build a distributed system using technologies like Apache Kafka and Spark.",
+                "title": "Developing a Custom Deep Learning Model for a Specific Task",
+                "description": "Design and implement a deep learning model for a specific task, such as medical image segmentation.",
                 "skills_developed": [
-                    "Big Data",
-                    "Distributed Systems",
-                    "Cloud Computing"
+                    "Model Architecture Design",
+                    "Custom Loss Functions",
+                    "Deep Learning"
                 ]
             }
         ]
     },
     "job_market_trends": {
-        "demand_growth_percentage": 15,
+        "demand_growth_percentage": 25,
         "industry_growth_percentages": [
             {
-                "industry": "AI/ML",
-                "growth_percentage": 25
+                "industry": "Technology",
+                "growth_percentage": 30
             },
             {
-                "industry": "EdTech",
-                "growth_percentage": 18
+                "industry": "Healthcare",
+                "growth_percentage": 20
             }
         ],
         "salary_expectations": {
-            "min_salary_usd": 80000,
+            "min_salary_usd": 90000,
             "max_salary_usd": 150000
         },
         "emerging_skills": [
             "MLOps",
-            "Cloud Native Development",
-            "Edge Computing"
+            "Explainable AI (XAI)",
+            "Edge AI"
         ],
-        "future_outlook_summary": "Strong growth expected in software development, particularly in AI/ML and cloud-related roles."
+        "future_outlook_summary": "The field of AI and Machine Learning is expected to continue its rapid growth, with increasing demand for skilled professionals."
     },
     "competitive_metrics": {
         "average_applicants_per_role": {
-            "current_year": 200,
+            "current_year": 150,
             "previous_years": [
                 {
-                    "year": 2022,
-                    "value": 150
+                    "year": 2023,
+                    "value": 120
                 },
                 {
-                    "year": 2021,
+                    "year": 2022,
                     "value": 100
                 }
             ]
@@ -189,29 +192,29 @@
             "current_year": 45,
             "previous_years": [
                 {
-                    "year": 2022,
-                    "value": 30
+                    "year": 2023,
+                    "value": 50
                 },
                 {
-                    "year": 2021,
-                    "value": 20
+                    "year": 2022,
+                    "value": 60
                 }
             ]
         },
         "skills_highest_in_demand": [
-            "Cloud Computing",
-            "Machine Learning",
-            "Data Science"
+            "Deep Learning",
+            "Natural Language Processing",
+            "Computer Vision"
         ],
         "competitive_advantages": [
             "Strong project portfolio",
-            "Relevant certifications",
-            "Practical experience"
+            "Practical experience with ML tools and frameworks",
+            "Publications in reputable conferences/journals"
         ],
         "recommendations_to_stand_out": [
             "Contribute to open-source projects",
-            "Network with professionals",
-            "Build a strong online presence"
+            "Build a strong online presence",
+            "Network with professionals in the field"
         ]
     }
 }

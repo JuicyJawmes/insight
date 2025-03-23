@@ -1,3 +1,0 @@
-targetRoles: Backend Developer, Software Engineer, Android Developer, Data Scientist
-workPreferences: Remote
-industryInterests: AI/ML, EdTech

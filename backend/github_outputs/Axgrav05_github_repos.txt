@@ -1,0 +1,90 @@
+
+===============================
+Name: CV_TENNIS_SAM_v1
+Description: No description
+Language: Jupyter Notebook
+Topics: 
+Last Updated: 2025-03-20T03:19:58Z
+URL: https://github.com/Axgrav05/CV_TENNIS_SAM_v1
+===============================
+    
+
+===============================
+Name: FronTIER
+Description: No description
+Language: Swift
+Topics: 
+Last Updated: 2024-11-17T12:45:19Z
+URL: https://github.com/Axgrav05/FronTIER
+===============================
+    
+
+===============================
+Name: IEEE-AIS_HACKAI_WORKSHOP
+Description: Machine Learnign workshop for IEEE x AIS using Python.
+Language: Jupyter Notebook
+Topics: 
+Last Updated: 2025-02-24T16:42:25Z
+URL: https://github.com/Axgrav05/IEEE-AIS_HACKAI_WORKSHOP
+===============================
+    
+
+===============================
+Name: ieee-site
+Description: The 2024 rendition of the IEEE Website.
+Language: CSS
+Topics: 
+Last Updated: 2024-10-18T22:32:49Z
+URL: https://github.com/Axgrav05/ieee-site
+===============================
+    
+
+===============================
+Name: IEEE_PROJECT_TENNIS
+Description: No description
+Language: Jupyter Notebook
+Topics: 
+Last Updated: 2025-03-20T03:58:20Z
+URL: https://github.com/Axgrav05/IEEE_PROJECT_TENNIS
+===============================
+    
+
+===============================
+Name: MindMosaic
+Description: No description
+Language: Swift
+Topics: 
+Last Updated: 2024-10-13T15:42:42Z
+URL: https://github.com/Axgrav05/MindMosaic
+===============================
+    
+
+===============================
+Name: repo-exercise
+Description: My first GitHub repository for coursera.
+Language: Not specified
+Topics: 
+Last Updated: 2024-06-03T03:54:52Z
+URL: https://github.com/Axgrav05/repo-exercise
+===============================
+    
+
+===============================
+Name: TerraTrust
+Description: No description
+Language: Swift
+Topics: 
+Last Updated: 2024-11-10T13:01:22Z
+URL: https://github.com/Axgrav05/TerraTrust
+===============================
+    
+
+===============================
+Name: Tic-Tac-Toe-AI
+Description: This project recreates the generic Tic Tac Toe game, but in addition to playing locally, the user can play against an AI. This AI was constructed using the minimax algorithm to calculate move placement; the AI has variable difficulties, upon which the user can choose from.
+Language: Python
+Topics: 
+Last Updated: 2024-06-16T23:30:24Z
+URL: https://github.com/Axgrav05/Tic-Tac-Toe-AI
+===============================
+    

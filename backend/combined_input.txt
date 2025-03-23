@@ -6,9 +6,8 @@ James Dao
 # james.k.dao@gmail.com
 ï linkedin.com/in/james-dao-920b45246
 Objective
-Master’s student in Computer Engineering with a focus on Applied Machine Learning, seeking an entry-level role or
-internship in firmware and embedded systems to apply skills in low-level programming, hardware-software
-integration, and system optimization.
+Master’s candidate in Applied Machine Learning, seeking an internship/job to apply my passion for innovative
+programming and machine learning in AI-driven solutions and real-world applications.
 Education
 University of Texas at Dallas
 Expected Grad. Dec 2025
@@ -17,9 +16,8 @@ GPA: 3.5
 Bachelor of Science in Computer Engineering
 Technical Skills
 Languages: Python, Java, C++, C#, HTML/CSS, Verilog, Assembly, MatLab, LaTeX
-Developer Tools: GitHub, Arduino IDE, Keil uVision / MPLAB X, STM32CubeIDE, PSpice, Makefiles/CMake
-Technologies/Frameworks: Communication Protocols (SPI, I2C, UART), Embedded Systems (Microcontrollers and
-peripherals), Hardware Abstraction Layers (HAL libraries for microcontrollers)
+Developer Tools: PyTorch, Hugging Face, NumPy, Scikit-Learn, VS Code, Figma, Energia
+Technologies/Frameworks: Linux, GitHub, Flutter, OpenGL, React
 Experiences
 Institute of Electrical and Electronics Engineers
 Aug 2023 – Present
@@ -46,32 +44,24 @@ increased user engagement by 15%.
 • Collaborated with a cross-functional team to develop interaction techniques in Unity using C#, integrating tactile and
 haptic feedback mechanisms.
 Projects
-3D Mapping Rover | C++, Python, Arduino
-• Designed and implemented algorithms for autonomous rover navigation using sensor data, enhancing precision in
-environmental 3D mapping tasks.
-• Collaborated on microcontroller programming to integrate sensors and motors, resulting in a functional prototype
-capable of generating real-time 3D room scans.
-• Developed a scalable solution for applications in disaster response, industrial automation, and indoor mapping,
-showcasing the potential of robotics in practical environments.
-ML Continuous Motion Recognition | C++, Embedded Systems
-• Developed a real-time motion recognition system using neural networks on microcontrollers, improving the efficiency of
-continuous activity monitoring.
-• Optimized data collection and processing pipelines to ensure low-latency predictions, demonstrating the feasibility of
-machine learning on embedded systems.
-• Enhanced accessibility to motion recognition technology for wearable devices and healthcare applications, paving the way
-for advancements in human-computer interaction.
-Multi-Cycle Computer Architecture | Verilog, Assembly
-• Designed and simulated a multi-cycle CPU using Verilog, enabling optimized instruction processing and improved
-computational efficiency.
-• Implemented low-level assembly programs to validate CPU functionality, demonstrating proficiency in hardware-software
-integration.
+VAE-Based Molecular Analysis | Python, PyTorch, NumPy
+• Developed a Variational Autoencoder to predict molecular conformations with 85% accuracy, using Hamiltonian matrices
+derived from DFT data.
+• Utilized ELBO loss function to ensure informative and accurate molecular representations, improving the prediction of
+stable molecular structures.
+• Achieved a 20% reduction in loss through effective hyperparameter tuning and gradient clipping, enhancing model
+convergence speed.
+Parameter-Efficient Fine Tuning Model | Python, Scikit-Learn, PyTorch
+• Fine-tuned the RoBERTa model using LoRA technique from Hugging Face’s PEFT library, improving training efficiency
+by 60%.
+• Achieved an 89% accuracy on emotion detection tasks while reducing computational overhead by 25% compared to fully
+fine-tuned models.
+Pre-Trained Image Classifier | Python, PyTorch
+• Implemented and optimized image classification models (ResNet, AlexNet, VGG) for classifying dog breeds with a 93%
+accuracy rate.
+• Balanced model accuracy and runtime, reducing inference time by 15%, making it suitable for large-scale dog show
+registrations.
 
-
-
---- user_inputs/default_user_input.txt ---
-targetRoles: Backend Developer, Software Engineer, Android Developer, Data Scientist
-workPreferences: Remote
-industryInterests: AI/ML, EdTech
 
 
 --- github_outputs/JuicyJawmes_github_repos.txt ---

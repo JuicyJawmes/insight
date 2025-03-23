@@ -1,0 +1,3 @@
+targetRoles: Penetration Tester, Game Designer
+industryInterests: Government / Public Sector, Telecom
+workPreferences: Remote

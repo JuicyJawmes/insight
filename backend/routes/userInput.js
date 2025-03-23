@@ -33,3 +33,43 @@ router.post("/", (req, res) => {
 
 
 module.exports = router;
+
+// const express = require("express");
+// const fs = require("fs");
+// const path = require("path");
+// const router = express.Router();
+
+// router.get("/:username", (req, res) => {
+//   const { username } = req.params;
+
+//   if (!username) {
+//     return res.status(400).json({ error: "Username is required" });
+//   }
+
+//   const filePath = path.join(__dirname, "../user_inputs", `${username}_input.txt`);
+
+//   if (!fs.existsSync(filePath)) {
+//     return res.status(404).json({ error: "User data not found" });
+//   }
+
+//   try {
+//     const data = fs.readFileSync(filePath, "utf8");
+
+//     // Convert text file contents into JSON
+//     const userData = {};
+//     data.split("\n").forEach(line => {
+//       const [key, value] = line.split(": ");
+//       if (key && value) {
+//         userData[key] = value.includes(", ") ? value.split(", ") : value;
+//       }
+//     });
+
+//     console.log(`✅ Loaded user data for ${username}:`, userData);
+//     res.json(userData);
+//   } catch (error) {
+//     console.error("❌ Error reading user data file:", error);
+//     res.status(500).json({ error: "Server error reading user data" });
+//   }
+// });
+
+// module.exports = router;

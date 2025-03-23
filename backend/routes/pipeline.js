@@ -8,6 +8,8 @@ const pythonPath = 'python'; // or 'python3'
 const resumeScrapePath = path.join(__dirname, '../resumeScrape.py');
 const combineInputsPath = path.join(__dirname, '../combined-inputs.py');
 const geminiRecsPath = path.join(__dirname, '../gemini_recs.py');
+const fs = require('fs');
+//const path = require('path');
 
 function runScript(command) {
   return new Promise((resolve, reject) => {
@@ -32,6 +34,31 @@ router.post('/runPipeline', async (req, res) => {
     await runScript(`${pythonPath} ${resumeScrapePath}`);
     await runScript(`${pythonPath} ${combineInputsPath}`);
     await runScript(`${pythonPath} ${geminiRecsPath}`);
+
+    // ✅ Step 2: Delete all resumes in the ResumesPDF folder
+    const resumeFolder = path.join(__dirname, "../ResumesPDF");
+
+    fs.readdir(resumeFolder, (err, files) => {
+      if (err) {
+        console.error("❌ Error reading resume folder:", err);
+        return;
+      }
+
+      if (files.length === 0) {
+        console.log("⚠️ No files found to delete.");
+      }
+
+      files.forEach((file) => {
+        const filePath = path.join(resumeFolder, file);
+        fs.unlink(filePath, (err) => {
+          if (err) {
+            console.error(`❌ Error deleting ${filePath}:`, err);
+          } else {
+            console.log(`✅ Deleted file: ${filePath}`);
+          }
+        });
+      });
+    });
 
     console.log('✅ Pipeline complete!');
     res.json({ message: '✅ Pipeline complete! Recommendations generated.' });
