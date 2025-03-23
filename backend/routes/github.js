@@ -1,8 +1,11 @@
 const express = require("express");
 const router = express.Router();
 const axios = require("axios");
+<<<<<<< HEAD
 const fs = require("fs");
 const path = require("path");
+=======
+>>>>>>> origin/sri
 const { setUserData } = require("../utils/userDataCache");
 
 router.post("/", async (req, res) => {
@@ -20,13 +23,19 @@ router.post("/", async (req, res) => {
 
     const repoInfo = repos.map(repo => ({
       name: repo.name,
+<<<<<<< HEAD
       description: repo.description || "No description",
       language: repo.language || "Not specified",
+=======
+      description: repo.description,
+      language: repo.language,
+>>>>>>> origin/sri
       topics: repo.topics || [],
       lastUpdated: repo.updated_at,
       url: repo.html_url
     }));
 
+<<<<<<< HEAD
     // Cache the user data
     setUserData(username, { github: repoInfo });
 
@@ -69,6 +78,14 @@ URL: ${repo.url}
 
   } catch (error) {
     console.error("❌ Error fetching GitHub data:", error.message);
+=======
+    setUserData(username, { github: repoInfo });
+
+    res.json({ repos: repoInfo });
+
+  } catch (error) {
+    console.error("Error fetching GitHub data:", error.message);
+>>>>>>> origin/sri
     res.status(500).json({ error: "Failed to fetch GitHub data" });
   }
 });

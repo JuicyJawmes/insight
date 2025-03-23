@@ -1,3 +1,9 @@
+<<<<<<< HEAD
 targetRoles: Cloud Engineer, Backend Developer, Frontend Developer
 workPreferences: Onsite, Internship
 industryInterests: Healthcare, E-Commerce
+=======
+targetRoles: Software Engineer
+workPreferences: Internship
+industryInterests: AI/ML
+>>>>>>> origin/sri

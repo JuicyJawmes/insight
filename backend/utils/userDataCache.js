@@ -7,6 +7,12 @@ module.exports = {
       ...data
     };
   },
+<<<<<<< HEAD
   getUserData: (username) => userDataCache[username]  || {},
   getAllCache: () => userDataCache
 };
+=======
+  getUserData: (username) => userDataCache[username] || {},
+  getAllCache: () => userDataCache
+};
+>>>>>>> origin/sri

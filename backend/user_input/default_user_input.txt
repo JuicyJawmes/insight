@@ -1,0 +1,3 @@
+targetRoles: Backend Developer, Research Scientist
+workPreferences: Full-Time
+industryInterests: EdTech
