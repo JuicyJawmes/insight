@@ -92,7 +92,7 @@
 # def save_to_json(recommendations, output_filename):
 #     with open(output_filename, 'w', encoding='utf-8') as file:
 #         json.dump(recommendations, file, indent=4)
-#     print(f"✅ Recommendations saved to {output_filename}")
+#     print(f"Recommendations saved to {output_filename}")
 
 # if __name__ == "__main__":
 #     combined_text = read_input_file("combined_input.txt")
@@ -264,7 +264,7 @@ def save_to_json(recommendations, output_filename):
     """Saves JSON recommendations to a file."""
     with open(output_filename, 'w', encoding='utf-8') as file:
         json.dump(recommendations, file, indent=4)
-    print(f"✅ Recommendations saved to {output_filename}")
+    print(f"Recommendations saved to {output_filename}")
 
 if __name__ == "__main__":
     combined_text = read_input_file("combined_input.txt")

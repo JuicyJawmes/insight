@@ -1,5 +1,8 @@
 import fitz
 import os
+import sys
+
+sys.stdout.reconfigure(encoding='utf-8')
 
 def extract_text_from_pdf(pdf_path):
     with fitz.open(pdf_path) as doc:
@@ -26,7 +29,7 @@ def extract_from_folder(folder_path, output_folder):
             output_filepath = os.path.join(output_folder, output_filename)
             
             save_text_to_file(extracted_text, output_filepath)
-            print(f"✅ Saved extracted text to {output_filepath}")
+            print(f"Saved extracted text to {output_filepath}")
 
 if __name__ == "__main__":
     pdf_folder = "ResumesPDF"

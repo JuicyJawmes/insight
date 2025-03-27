@@ -1,0 +1,30 @@
+
+===============================
+Name: AlexFlesher
+Description: Config files for my GitHub profile.
+Language: Not specified
+Topics: config, github-config
+Last Updated: 2024-10-21T04:35:14Z
+URL: https://github.com/AlexFlesher/AlexFlesher
+===============================
+    
+
+===============================
+Name: portfolio
+Description: My Personal Portfolio Website
+Language: CSS
+Topics: 
+Last Updated: 2024-10-07T18:57:37Z
+URL: https://github.com/AlexFlesher/portfolio
+===============================
+    
+
+===============================
+Name: Terminal-Project
+Description: No description
+Language: Python
+Topics: 
+Last Updated: 2024-10-07T18:56:39Z
+URL: https://github.com/AlexFlesher/Terminal-Project
+===============================
+    
