@@ -1,7 +1,7 @@
 {
     "current_skills": [
-        "Python",
-        "CSS"
+        "CSS",
+        "Python"
     ],
     "recommended_target_roles": [
         "Front-End Web Developer",
@@ -22,7 +22,7 @@
         "advanced": [
             "TypeScript",
             "AWS/Azure",
-            "Testing (unit, integration)"
+            "Testing (Unit, Integration)"
         ]
     },
     "certifications": {
@@ -34,49 +34,48 @@
             },
             {
                 "name": "Codecademy Learn JavaScript",
-                "description": "Introduction to JavaScript programming.",
+                "description": "Introduction to JavaScript fundamentals.",
                 "url": "https://www.codecademy.com/learn/introduction-to-javascript"
             }
         ],
         "intermediate": [
             {
                 "name": "Meta Front-End Developer Professional Certificate",
-                "description": "Covers front-end development with React.",
+                "description": "Comprehensive front-end development skills including React.",
                 "url": "https://www.coursera.org/professional-certificates/meta-front-end-developer"
             },
             {
-                "name": "Node.js Certification by OpenJS Node.js Application Developer (JSNAD)",
-                "description": "Demonstrates Node.js proficiency.",
-                "url": "https://openjs.org/certification/jsnad/"
+                "name": "Udacity React Nanodegree",
+                "description": "In-depth React development with practical projects.",
+                "url": "https://www.udacity.com/course/react-nanodegree--nd019"
             }
         ],
         "advanced": [
             {
                 "name": "AWS Certified Developer \u2013 Associate",
-                "description": "Covers AWS development and deployment.",
+                "description": "Demonstrates proficiency in developing and maintaining applications on AWS.",
                 "url": "https://aws.amazon.com/certification/certified-developer-associate/"
             },
             {
                 "name": "Microsoft Certified: Azure Developer Associate",
-                "description": "Covers Azure development and deployment.",
-                "url": "https://learn.microsoft.com/en-us/certifications/azure-developer/"
+                "description": "Validates skills in developing and deploying cloud applications on Azure.",
+                "url": "https://learn.microsoft.com/en-us/certifications/azure-developer-associate/"
             }
         ]
     },
     "projects": {
         "beginner": [
             {
-                "title": "Personal Website",
-                "description": "Build a static website using HTML, CSS, and basic JavaScript.",
+                "title": "Simple Website with HTML and CSS",
+                "description": "Create a static website with multiple pages using HTML and CSS.",
                 "skills_developed": [
                     "HTML",
-                    "CSS",
-                    "JavaScript"
+                    "CSS"
                 ]
             },
             {
-                "title": "To-Do List App",
-                "description": "Create a simple to-do list application with JavaScript.",
+                "title": "JavaScript To-Do List",
+                "description": "Build a dynamic to-do list application with JavaScript.",
                 "skills_developed": [
                     "JavaScript",
                     "DOM Manipulation"
@@ -85,8 +84,8 @@
         ],
         "intermediate": [
             {
-                "title": "E-commerce Product Page",
-                "description": "Develop a dynamic product page using React.",
+                "title": "E-commerce Product Page with React",
+                "description": "Develop a dynamic product page with features like add to cart and product details using React.",
                 "skills_developed": [
                     "React",
                     "API Integration"
@@ -94,31 +93,30 @@
             },
             {
                 "title": "Blog Website with Node.js and Express",
-                "description": "Build a blog website with basic CRUD operations.",
+                "description": "Create a blog website with user authentication and database integration using Node.js and Express.",
                 "skills_developed": [
                     "Node.js",
                     "Express",
-                    "SQL"
+                    "MongoDB"
                 ]
             }
         ],
         "advanced": [
             {
                 "title": "Serverless Application with AWS Lambda",
-                "description": "Deploy a serverless application using AWS Lambda and other AWS services.",
+                "description": "Build a serverless application using AWS Lambda and other AWS services.",
                 "skills_developed": [
                     "AWS Lambda",
-                    "Serverless Architecture",
-                    "API Gateway"
+                    "Serverless Architecture"
                 ]
             },
             {
-                "title": "Full-Stack Application with CI/CD",
-                "description": "Build and deploy a full-stack application with automated CI/CD pipeline.",
+                "title": "Full-Stack Application with TypeScript and React",
+                "description": "Develop a full-stack application with TypeScript on both front-end and back-end.",
                 "skills_developed": [
-                    "CI/CD",
-                    "Docker",
-                    "Testing"
+                    "TypeScript",
+                    "React",
+                    "Node.js"
                 ]
             }
         ]
@@ -144,7 +142,7 @@
             "Web3",
             "Blockchain"
         ],
-        "future_outlook_summary": "Strong demand for software and web developers with increasing emphasis on specialized skills and emerging technologies."
+        "future_outlook_summary": "Positive job growth expected with increasing demand for specialized skills in emerging technologies."
     },
     "competitive_metrics": {
         "average_applicants_per_role": {
@@ -165,11 +163,11 @@
             "previous_years": [
                 {
                     "year": 2022,
-                    "value": 35
+                    "value": 40
                 },
                 {
                     "year": 2021,
-                    "value": 30
+                    "value": 35
                 }
             ]
         },
@@ -180,15 +178,13 @@
             "Python"
         ],
         "competitive_advantages": [
-            "Strong portfolio of projects",
-            "Contributions to open-source projects",
-            "Relevant certifications"
+            "Strong portfolio with diverse projects",
+            "Continuous learning and upskilling"
         ],
         "recommendations_to_stand_out": [
-            "Focus on building a diverse portfolio showcasing your skills",
-            "Contribute to open-source projects to gain practical experience",
-            "Obtain relevant certifications to validate your expertise",
-            "Network with professionals in your field"
+            "Contribute to open-source projects",
+            "Build a strong online presence",
+            "Network with industry professionals"
         ]
     }
 }
